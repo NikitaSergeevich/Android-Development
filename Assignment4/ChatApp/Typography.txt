@@ -1,0 +1,42 @@
+
+
+Header: #5b95c2
+Header pressed: #4a87b5
+Text: 20 Medium #ffffff
+
+
+
+// List of chats
+
+Username: 17 Medium #222222
+Text: 16 Regular #8a8a8a
+System text: 16 Regular #6b9cc2
+Timestamp: 13 Regular #999999
+
+
+
+// Chat
+
+Header first line: 18 Regular #ffffff
+Header second line: 14 Regular #d2eafc
+
+
+Username: 15 Bold #569ace
+Text: 15 Regular #333333 
+Link, mention: 15 Regular #569ace
+Timestamp: 13 Regular #b2b2b2
+
+
+New messages panel: 14 Medium #579bcf
+No messages placeholder: 16 Regular #999999
+Date: 15 Bold #333333
+
+
+File name: 15 Medium #333333 
+File size: 13 Regular #b2b2b2
+Audio duration: 13 Regular #68ade1
+
+
+3-dots, attach menu: 16 Regular #222222
+"Message" input placeholder: 17 Regular #b2b2b2
+

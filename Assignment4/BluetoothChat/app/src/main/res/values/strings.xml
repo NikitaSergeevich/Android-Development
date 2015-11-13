@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BluetoothChat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="scanning">Scan for available devices...</string>
+    <string name="startnewchat">StratNewChat</string>
+    <string name="title_activity_available_devices">Scanning For Available Devices...</string>
+    <string name="title_activity_select_device">Select Device To Connect</string>
+    <string name="no_devices_found">No Devices Found</string>
+    <string name="title_discovered_devices">Devices Discovered</string>
+</resources>

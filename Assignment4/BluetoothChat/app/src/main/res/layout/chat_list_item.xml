@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/chat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/sym_def_app_icon"/>
+
+    <TextView
+        android:id="@+id/chat_title"
+        android:layout_toRightOf="@id/chat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorUsername"
+        android:text="Name Surname"
+        android:layout_marginLeft="7dp"
+        android:textSize="@dimen/list_username_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/chat_last_message"
+        android:layout_toRightOf="@id/chat_icon"
+        android:layout_below="@id/chat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_marginLeft="7dp"
+        android:text="chat last message"
+        android:textSize="@dimen/list_text_size"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/chat_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTimestamp"
+        android:text="11:16 PM"
+        android:textSize="@dimen/list_timestamp_size"
+        android:textStyle="normal"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_above="@+id/chat_new_messages"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/chat_new_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTimestamp"
+        android:text="20"
+        android:textSize="@dimen/list_timestamp_size"
+        android:textStyle="normal"
+        android:layout_alignTop="@+id/chat_last_message"
+        android:layout_alignRight="@+id/chat_timestamp"
+        android:layout_alignEnd="@+id/chat_timestamp" />
+    <!--    <ImageView
+           android:id="@+id/indicator"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+           -->
+</RelativeLayout>
